@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "b36818a78e1460eed609d6d51b385bb3652a4f45"
+    "signature": "fb64d667b6632d6279237f6fa334ac7f6ed9dc91"
   },
   "compilationOptions": {
     "defines": [
@@ -26,7 +26,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "Microsoft.VisualStudio.Web.BrowserLink": "2.2.0"
         },
         "runtime": {
           "Cotizaciones.dll": {}
@@ -201,6 +202,23 @@
       },
       "Microsoft.NETCore.Platforms/2.2.0": {},
       "Microsoft.NETCore.Targets/2.0.0": {},
+      "Microsoft.VisualStudio.Web.BrowserLink/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.Extensions.FileProviders.Physical": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.2.0"
@@ -3268,6 +3286,13 @@
       "sha512": "sha512-odP/tJj1z6GylFpNo7pMtbd/xQgTC3Ex2If63dRTL38bBNMwsBnJ+RceUIyHdRBC0oik/3NehYT+oECwBhIM3Q==",
       "path": "microsoft.netcore.targets/2.0.0",
       "hashPath": "microsoft.netcore.targets.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Web.BrowserLink/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5iEvISSbDBmZFDwO9uz5xXt3gZTTTb/nL8GPwuyc2++h7GRSD1sHdmBIaRnZ6QSHeqQt5tcZtAmGByZpdg6+bw==",
+      "path": "microsoft.visualstudio.web.browserlink/2.2.0",
+      "hashPath": "microsoft.visualstudio.web.browserlink.2.2.0.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",

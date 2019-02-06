@@ -31,6 +31,10 @@ namespace Cotizaciones.Controllers
             {
                 url = "http://api.valuta.money/v1/quotes/BRL/ARS/json?quantity=1&key=1695|wjJyUFUSxHmmgkqHS_NYvAcLTeCLQyfL";
             }
+            else
+            {
+                return "Moneda Inexistente";
+            }
             HttpWebRequest req = WebRequest.Create(url) as HttpWebRequest;
             using (HttpWebResponse resp = req.GetResponse() as HttpWebResponse)
             {
@@ -44,24 +48,5 @@ namespace Cotizaciones.Controllers
         }
 
        
-                     
-
-        //// GET: api/<controller>
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
-        //// PUT api/<controller>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody]string value)
-        //{
-        //}
-
-        //// DELETE api/<controller>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }
